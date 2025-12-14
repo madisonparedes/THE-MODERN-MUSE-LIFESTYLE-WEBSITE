@@ -1,0 +1,103 @@
+/* Base */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #faf7f3;
+  color: #2f2f2f;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Header */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+.back-link:hover {
+  opacity: 0.6;
+}
+
+/* Hero */
+.lifestyle-hero {
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.lifestyle-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.lifestyle-hero p {
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #6f6f6f;
+}
+
+/* Rituals */
+.rituals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  padding: 60px 40px;
+}
+
+.ritual {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.ritual h3 {
+  margin: 16px 0 8px;
+  font-family: 'Playfair Display', serif;
+}
+
+.ritual p {
+  font-size: 14px;
+  color: #6f6f6f;
+}
+
+/* Manifesto */
+.manifesto {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.manifesto h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.manifesto p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #6f6f6f;
+}
+
+/* Footer */
+.page-footer {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 12px;
+  color: #9a9a9a;
+}
